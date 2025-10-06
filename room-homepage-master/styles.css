@@ -164,6 +164,10 @@ body {
 .arrow:hover {
   background: var(--Grey800);
 }
+.arrow arrow--left, .arrow arrow--right{
+  outline-offset: 3px;
+  outline: 2px solid #333;
+}
 
 /* ABOUT SECTION */
 .about {
