@@ -13,9 +13,10 @@
 }
 
 body {
+  background-color: var(--White);
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color: hsl(0, 0%, 41%);
+  color: var(--Grey800);
   line-height: 1.6;
 }
 
@@ -57,7 +58,7 @@ body {
   left: 0;
   height: 2px;
   width: 100%;
-  background: #fff;
+  background: var(--White);
 }
 
 /* HERO SECTION */
@@ -107,7 +108,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 4rem;
-  background: #fff;
+  background: var(--White);
   position: relative;
 }
 
@@ -122,7 +123,7 @@ body {
 .text-slide h2 {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #000;
+  color: var(--Black);
   margin-bottom: 1rem;
 }
 
@@ -136,7 +137,7 @@ body {
   align-items: center;
   gap: 1rem;
   text-decoration: none;
-  color: #000;
+  color: var(--Black);
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 600;
@@ -192,7 +193,7 @@ body {
 }
 
 .about__desc {
-  color: hsl(0, 0%, 41%);
+  color: var(--Grey800);
 }
 
 @media (min-width: 768px) {
@@ -229,7 +230,7 @@ body {
 .about__desc {
   width: 300px;
   font-size: 0.90rem;
-  color: hsl(0, 0%, 40%);
+  color: var(--Grey800);
 }
 
 .about__img {
