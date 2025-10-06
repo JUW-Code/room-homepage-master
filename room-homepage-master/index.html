@@ -13,26 +13,27 @@
     <img src="./images/logo.svg" alt="Room logo" class="logo">
     <nav class="nav">
       <div class="nav__menu">
-        <a href="#" class="nav__link">Home</a>
-        <a href="#" class="nav__link">Shop</a>
-        <a href="#" class="nav__link">About</a>
-        <a href="#" class="nav__link">Contact</a>
+        <a href="#home" aria-label="Go to homepage" class="nav__link">Home</a>
+        <a href="#shop" aria-label="Go to shop page" class="nav__link">Shop</a>
+        <a href="#about" aria-label="Learn more about us" class="nav__link">About</a>
+        <a href="#contact" aria-label="Contact us" class="nav__link">Contact</a>
       </div>
-      <img src="./images/icon-hamburger.svg" alt="Hamburger" class="Hamburger">
+      <button class="Hamburger">
+      <img src="./images/icon-hamburger.svg" alt="Hamburger-Menu">
+      </button>
     </nav>
   </header>
 
    <div class="hero__container">
-    <!-- Image Slides -->
     <div class="hero__slider">
       <div class="slide active">
-        <img src="./images/desktop-image-hero-1.jpg" alt="Hero 1">
+        <img src="./images/desktop-image-hero-1.jpg" alt="Wooden table and decor in soft lighting">
       </div>
       <div class="slide">
-        <img src="./images/desktop-image-hero-2.jpg" alt="Hero 2">
+        <img src="./images/desktop-image-hero-2.jpg" alt="Bright minimalist room with chairs">
       </div>
       <div class="slide">
-        <img src="./images/desktop-image-hero-3.jpg" alt="Hero 3">
+        <img src="./images/desktop-image-hero-3.jpg" alt="Black chair">
       </div>
     </div>
 
@@ -43,34 +44,28 @@
          owners across the country. Our experts combine form and function in bringing your 
          vision to life. Create a room in your own style with our collection and make your property a 
          reflection of you and what you love.</p>
-      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon"></a>
+      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon" tabindex="0" role="button"></a>
     </div>
 
     <div class="text-slide">
       <h2>We are available all across the globe</h2>
       <p>With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p>
-      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon"></a>
+      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon"tabindex="0" role="button"></a>
     </div>
 
     <div class="text-slide">
       <h2>Manufactured with the best materials</h2>
       <p>Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p>
-      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon"></a>
+      <a href="#" class="feature__link">Shop now <img src="./images/icon-arrow.svg" alt="Arrow icon" tabindex="0" role="button"></a>
     </div>
     </div>
     </div>
      <div class="hero__arrows">
-       <button class="arrow arrow--left">&#10094;</button>
-      <button class="arrow arrow--right">&#10095;</button>
+       <button class="arrow arrow--left" aria-label="Previous alide">&#10094;</button>
+      <button class="arrow arrow--right" aria-label="Next slide">&#10095;</button>
     </div>
-
-   <!--<div class="hero__arrows">
-      <img src="./images/icon-angle-left.svg" alt="Previous slide" class="arrow arrow--left">
-      <img src="./images/icon-angle-right.svg" alt="Next slide" class="arrow arrow--right">
-    </div>-->
   </section>
 
-  <!-- About Section -->
   <section class="about">
     <img src="./images/image-about-dark.jpg" alt="Dark furniture" class="about__img about__img--dark">
     <div class="about__content">

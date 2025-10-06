@@ -275,6 +275,178 @@ body {
     gap: 4rem;
   }
   .about__desc {
-    max-width: 400px;
+    max-width: 400;
   }
+/*MOBILE DESIGN (max-width: 768px)*/
+@media (max-width: 768px) {
+
+  body {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* HEADER */
+  .header {
+    top: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .logo {
+    height: 20px;
+  }
+
+  .Hamburger {
+    display: block;
+    background: var(--Black);
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  .Hamburger img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 70%;
+    height: 100%;
+    background: var(--White);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    transition: right 0.4s ease;
+    z-index: 900;
+  }
+
+  .nav__menu.active {
+    right: 0;
+  }
+
+  .nav__link {
+    color: var(--Black);
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__slider {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ .hero__container{
+ display: grid;
+ }
+  .hero__content {
+    padding: 2.5rem 1.5rem;
+    text-align: left;
+  }
+
+  .text-slide h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--Black);
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .text-slide p {
+    font-size: 0.95rem;
+    color: var(--Grey500);
+    margin-bottom: 2rem;
+  }
+
+  .feature__link {
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-transform: uppercase;
+    color: var(--Black);
+  }
+
+  .hero__arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+  }
+
+  .arrow {
+    padding: 0.9rem 1.2rem;
+    background: var(--Black);
+    color: var(--White);
+  }
+
+  
+  .about {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .about__img {
+    width: 100%;
+  }
+
+  .about__content {
+    padding: 2rem 1.5rem;
+    text-align: left;
+  }
+
+  .about__title {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: var(--Black);
+    margin-bottom: 1rem;
+  }
+
+  .about__desc {
+    font-size: 0.9rem;
+    color: var(--Grey500);
+  }
+
+  
+  .attribution {
+    font-size: 0.8rem;
+    padding: 1.5rem 0;
+    background: hsl(0, 0%, 95%);
+  }
+}
+
+/*SMALLER PHONES (max-width: 480px)*/
+@media (max-width: 480px) {
+  .hero__content {
+    padding: 2rem 1rem;
+  }
+
+  .text-slide h2 {
+    font-size: 1.4rem;
+  }
+
+  .feature__link {
+    font-size: 0.7rem;
+  }
+
+  .about__content {
+    padding: 1.5rem 1rem;
+  }
+}
 }
